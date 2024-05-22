@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#AAAAAA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Doors"
+            android:textSize="10dp"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hit"
+            android:textSize="10dp"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Light"
+            android:textSize="10dp"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_d"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sens"
+            android:textSize="10dp"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_e"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cnncts"
+            android:textSize="9dp"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:background="#6B6B6B"
+        android:scaleType="centerInside"
+        android:src="@drawable/mic"/>
+
+</LinearLayout>
+

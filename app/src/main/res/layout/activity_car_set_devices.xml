@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/card_1"
+                android:text="Microphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <CheckBox
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/card_2"
+                android:text="Dinamics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/card_4"
+                android:text="Acelerometr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/card_5"
+                android:text="Door sensors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/card_5"
+                android:text="Lights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:id="@+id/card_3"
+                android:text="Sensors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"/>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/button_add_device"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/button_confirm"
+            android:text="Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/button"
+            android:textColor="@color/black"/>
+
+        <!-- Add more CardView widgets here -->
+
+    </LinearLayout>
+
+</ScrollView>

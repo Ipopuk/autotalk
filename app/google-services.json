@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "312964512570",
+    "project_id": "autotalk-29028",
+    "storage_bucket": "autotalk-29028.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312964512570:android:83a59f47043e84a39c2e03",
+        "android_client_info": {
+          "package_name": "com.example.autotalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0JSJglFe9y9ekI4e4iLaPWluVG7iDSY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
